@@ -10,12 +10,6 @@ Grupo:
 
 <b>Aviso:<b> <p>O arquivo main.tf contém a região definida como sa-east-1 (São Paulo), modifique de acordo com sua necessidade.</p>
 
-## Para aplicar a infraestrutura presente neste projeto com tflocal, execute:
-```
-tflocal apply infra.tfplan
-```
-<br>
-
 ## Para testar a infraestrutura criada, execute:
 ```
 aws s3 cp <ARQUIVO-PARA-UPLOAD> s3://bronze-bucket/
